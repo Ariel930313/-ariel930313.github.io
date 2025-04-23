@@ -1,0 +1,45 @@
+body {
+  background-color: #f3e8eb;
+  color: #837781;
+}
+header, footer {
+  background-color: #f8f9fa;
+  color: #928490;
+  padding: 1rem 0;
+}
+
+h1, h2, h3 {
+  color: #433e49;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #433e49;
+}
+
+.card {
+  border: 1px solid #ffc0cb;
+}
+
+.card-title {
+  color: #433e49;
+}
+
+.card-text {
+  color: #7f717d;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+button {
+  background-color: #13010a;
+  color: #cad0d7;
+  border: none;
+}
+
+button:hover {
+  background-color: #32061e;
+}
