@@ -1,32 +1,43 @@
+
 body {
-  background-color: #f3e8eb;
-  color: #837781;
+  background-color: #f9e0c8;
+  color: #712E1E;
 }
+
 header, footer {
-  background-color: #f8f9fa;
-  color: #928490;
+  background-color: #712E1E;
+  color: #FFD5AF;
   padding: 1rem 0;
 }
 
 h1, h2, h3 {
-  color: #433e49;
+  color: #712E1E;
+}
+
+.navbar-light {
+  background-color: #f9e0c8;
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .nav-link {
-  color: #433e49;
+  color: #712E1E;
+}
+
+.nav-link:hover {
+  color: #ff810a;
 }
 
 .card {
-  border: 1px solid #ffc0cb;
+  border: 2px solid #888870;
+  background-color: #f9d2ae;
 }
 
 .card-title {
-  color: #433e49;
+  color: #712E1E;
 }
 
 .card-text {
-  color: #7f717d;
+  color: #535346;
 }
 
 .intro-text {
@@ -35,11 +46,15 @@ h1, h2, h3 {
 }
 
 button {
-  background-color: #13010a;
-  color: #cad0d7;
+  background-color: #712E1E;
+  color: #FFD5AF;
   border: none;
 }
 
 button:hover {
-  background-color: #32061e;
+  background-color: #E59A59;
+}
+
+html {
+  scroll-behavior: smooth;
 }
